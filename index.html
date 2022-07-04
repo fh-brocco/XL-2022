@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XL e sócia </title>
+
+    <!--Link para pegar o estilo CSS dos servidores do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/icons8-law-nawicon-outline-color-96.png" type="image/x-icon">
+    <!-- /Favicon -->
+</head>
+
+<body class="imgBg">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-transparent navbar-fixed-top mb-1" role="navigation">
+        <a class="navbar-brand text-white" href="#">
+            <img src="assets/img/icons8-law-nawicon-outline-color-96.png" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+            Xl Advogada
+        </a>
+        <div class="mr-5">
+
+        </div>
+
+    </nav>
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">O que é LGPG ?</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium quam odit. Dolorum
+                minus dolor facilis, iusto voluptatibus qui eius veritatis consequatur voluptas assumenda, dignissimos
+                minima, dolorem libero optio praesentium?</p>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-md-8">
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-light">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YBMq5c2ssY0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                            <h3 class="justify-content-center mt-5">TEXTO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugiat dicta, quia cumque
+                                illum suscipit eveniet quis, iure perspiciatis temporibus eum. Sapiente sit quidem a
+                                nulla officia officiis dicta ullam?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nam tenetur
+                                consequuntur nobis vitae, et hic ab amet quas. Corrupti necessitatibus accusamus
+                                similique cumque ab earum dolor tenetur facilis hic.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nam tenetur
+                                consequuntur nobis vitae, et hic ab amet quas. Corrupti necessitatibus accusamus
+                                similique cumque ab earum dolor tenetur facilis hic.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nam tenetur
+                                consequuntur nobis vitae, et hic ab amet quas. Corrupti necessitatibus accusamus
+                                similique cumque ab earum dolor tenetur facilis hic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mt-1">
+                <div class="row d-flex justify-content-center mr-4">
+                    <div class="col-md text-light glass p-5">
+
+                        <p class="text-center h4 font-weight-bold">Solicite um questionário para saber se sua empresa
+                            está aderente a LGPD</p>
+                        <form>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome">
+                            <div id="txtNome"></div>
+
+                            <label for="empresa">Nome da empresa:</label>
+                            <input type="text" id="empresa">
+                            <div id="txtEmpresa"></div>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" onkeyup="validarEmail()">
+                            <div id="txtEmail"></div>
+
+                            <label for="assunto">Assunto:</label><br>
+                            <textarea name="assunto" id="assunto" rows="5" onkeyup="validarAssunto()"></textarea>
+                            <div id="txtAssunto"></div>
+                            <button class="btn btn-primary btn-lg d-block mx-auto w-50 mt-3" onclick="enviar()"><span
+                                    class="h5">Enviar</span></button>
+                            <hr>
+                            <p>ou entre em contato através do Whatsapp:</p>
+
+                        </form>
+                        <div class="row justify-content-center">
+                            <a href="https://wa.me/5511900000000" target="_blank"><img class="logo "
+                                    src="assets/img/whatsapp.png" alt="whatsapp">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron mt-5">
+            <h1 class="display-4 mt-5">Quer saber um pouco mais?</h1>
+            <p class="lead">Faça aqui o download do seu pdf. </p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg"
+                href="https://drive.google.com/file/d/1E9LqQr5JvWawrWeZCP8fJ0cPmNqaRa1I/view?usp=sharing"
+                role="button">Baixar</a>
+        </div>
+
+        <div class="col-md-12 mt-5 justify-content-center ">
+            <div class="card-columns mb-5">
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/O-que-é-a-LGPD.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+                        <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como
+                            uma
+                            introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/o-que-é-LGPD.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma
+                            introdução a
+                            um conteúdo adicional.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                        <footer class="blockquote-footer">
+                            <small>
+                                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma
+                            introdução a
+                            um conteúdo adicional.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="assets/img/download.jpg" alt="Imagem do card">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Título do card</h5>
+                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
+                            introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro,
+                            para
+                            mostrar a altura igual, em ação.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Rodapé-->
+    <footer class="footer mt-5 ">
+        <p class="center mr-4">
+            Todos os direitos reservados: XL e sócia &copy 2022
+        </p>
+    </footer>
+
+
+    <!--/Rodapé-->
+
+
+    <!--Script Js-->
+    <script src="assets/js/script.js"></script>
+    <!--/Script Js-->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
